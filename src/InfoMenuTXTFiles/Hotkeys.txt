@@ -1,0 +1,10 @@
+<span>
+
+<b>F1:</b> New Game<br>
+<b>F2:</b> Save Game<br>
+<b>F3:</b> Save As New Start Position<br>
+<b>T:</b> Turn Engine On/Off<br>
+<b>G:</b> Switch Engine To Play Black/White<br>
+<b>F:</b> Flip Board<br>
+
+</span>

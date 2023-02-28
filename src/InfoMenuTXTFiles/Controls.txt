@@ -1,0 +1,30 @@
+<span>
+
+<b>Q:</b><br>
+If cursor is in main line: set cursor back to first move. If cursor<br>
+is in a variation: set cursor back to root position of variation.<br><br>
+
+<b>W,  Up Arrow:</b><br>
+Set cursor to previous position in the variation.<br><br>
+
+<b>A,  Left Arrow:</b><br>
+Set cursor to previous position even if previous position is the <br>
+tail of the next variation.<br><br>
+
+<b>D,  Right Arrow:</b><br>
+Set cursor to next position even if next position is the head of<br>
+the next variation.<br><br>
+
+<b>S,  Down Array:</b><br>
+Set cursor to next position in the variation.<br><br>
+
+<b>E:</b><br>
+If cursor is in main line: set cursor forward to last move. If cursor<br>
+is in variation: set cursor to end of variation. <br><br>
+
+<b>Spacebar:</b><br>
+If cursor is part of a variation and variation's root position<br>
+has multiple variations: switch between variations.<br><br>
+
+
+</span>

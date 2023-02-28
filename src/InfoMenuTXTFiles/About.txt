@@ -1,0 +1,37 @@
+<span>
+<u><b>Simple Chess Variation Board<b/></u><br>
+Created by <b>John Romo</b> in August 2022<br><br>
+<i>This app includes some .png files, none of which none of which I created<br>
+I created, nor was I in any way involved in their creation. All code was<br>
+was created by me. There were a few times when I needed help with syntax, <br>
+especially concerning Swing, so there are a very few lines of code which are<br>
+similar to what you can find on Stack Overflow and other boards and tutorial<br>
+sites. To my knowledge, none of my code is identical to, or even overly<br>
+similar to, what other people have written.</i><br><br>
+
+Implementing all the rules of Chess with a computer program turned into a<br>
+fascinating puzzle. It takes no small effort to consider all the complicated<br>
+logic involved with simple things like reveal-checks and pins. Check itself, and<br>
+more specifically, the rule that a player cannot end their turn while in<br>
+check, presented a real challenge. Look at the various piece move functions<br>
+to see how I solved the problem. The ranging moves (bishop and rook) can be<br>
+found directly in the Piece class. The other moves can be found in their<br>
+respective classes. The function that marks squares attacked by kings is seperate<br>
+from the King class due to the issues involved with stalemate logic. Those can<br>
+be found in the Board class.  Also in the Board class are the functions used<br>
+to get a FEN from a position, and to set up the board from a FEN. These were<br>
+not exactly difficult to implement, but were still quite fun to code.<br><br>
+
+Some more interesting parts of the program are in the Position List class<br>
+used for storing variations. I had some trouble with the logic for the setPrintName<br>
+function and with the saveGame and loadGame functions. Figuring out the best<br>
+information to store  with the save function in order to make an easy load<br>
+function took quite a bit of time and effort.  Also, I am particularly happy<br>
+with the searchList function, and it's recursive partner searchVars.<br><br>
+
+This is my first major non-school-assigned project. Obviously, the code is rough.<br>
+Also, as it turns out, the font doesn't scale well. At this point, that's just what<br>
+it is.<br>
+</span>
+
+

@@ -1,0 +1,28 @@
+<span>
+<b> Left Pipe:</b><br>
+If cursor is in main line: set cursor back to first move. If cursor<br>
+is in a variation: set cursor back to root position of variation.<br><br>
+
+<b> Double Left Arrow:</b><br>
+Set cursor to previous position in the variation.<br><br>
+
+<b> Left Arrow:</b><br>
+Set cursor to previous position even if previous position is the <br>
+tail of the next variation.<br><br>
+
+<b> Right Arrow:</b><br>
+Set cursor to next position even if next position is the head of<br>
+the next variation.<br><br>
+
+<b> Double Right Arrow:</b><br>
+Set cursor to next position in the variation.<br><br>
+
+<b> Right Pipe:</b><br>
+If cursor is in main line: set cursor to last move. If cursor<br>
+is in a variation: set cursor to the position after the root<br>
+position.<br><br>
+
+
+<b> Forward Slash :</b><br>
+If cursor is part of a variation and variation's root position<br>
+has multiple variations: switch between variations.<br><br>
