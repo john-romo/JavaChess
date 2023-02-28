@@ -25,4 +25,8 @@ Unfortunately, the font did not scale well.  I'm not sure how
 to fix that, and since this was my first large scale non-school
 project, and I wrote it months ago, I'll just leave it be. 
 
-
+Now that I'm thinking of it, you might need to edit the file 
+paths in order to get this to run on windows and/or mac.  I 
+originally wrote it on windows, then I switched everything to
+arch and changed those paths to accomidate, so I'm not sure
+the windows will like the forward slashes. 
