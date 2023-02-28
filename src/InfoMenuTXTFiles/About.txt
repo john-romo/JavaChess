@@ -1,9 +1,8 @@
 <span>
 <u><b>Simple Chess Variation Board<b/></u><br>
 Created by <b>John Romo</b> in August 2022<br><br>
-<i>This app includes some .png files, none of which none of which I created<br>
-I created, nor was I in any way involved in their creation. All code was<br>
-was created by me. There were a few times when I needed help with syntax, <br>
+<i>This app includes some .png files, none of which I created. I cretaed<br>
+all the code. There were a few times when I needed help with syntax, <br>
 especially concerning Swing, so there are a very few lines of code which are<br>
 similar to what you can find on Stack Overflow and other boards and tutorial<br>
 sites. To my knowledge, none of my code is identical to, or even overly<br>
