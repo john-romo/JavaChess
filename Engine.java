@@ -2,7 +2,7 @@ import java.io.*;
 
 public class Engine {
     static String engineLocation =
-           "Plaste the path to your stockfish exe here. Remember to edit engineActive in Game.java";
+           "Paste the path to your stockfish exe here. Remember to edit engineActive in Game.java";
     static ProcessBuilder engine;
     static Process run;
     static BufferedReader istream;
@@ -23,7 +23,7 @@ public class Engine {
     public static void engage() throws IOException {		
         engaged = true;
 
-		engine = new ProcessBuilder(engineLocation);
+	engine = new ProcessBuilder(engineLocation);
 
         run = engine.start();
 
